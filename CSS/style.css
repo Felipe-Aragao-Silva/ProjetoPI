@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(180deg, #FFCA00 , #FFE580, #FFFFFF );
+
+    background-repeat: no-repeat;
+}
+
+/* Header */
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    padding: 33px 30px 30px 39px;
+}
+
+/* logo/search-bar/chat */
+.cabecalho-topo{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 300px;
+    height: 73.6px;
+    margin-right: 53px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    height: 60;
+}
+
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+}

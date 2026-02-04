@@ -4,36 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Locatem</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="./img/Logo 1.png" alt="logo">
-        </div>
-
-        <div class="search-box">
-            <input type="text" class="search-box">
-
-            <a class="search-btn">
-                <img src="./img/lupa.png" alt="lupa">
-            </a>
-        </div>
-
-        <div class="chat">
+    <header class="cabecalho">
+        <div class="cabecalho-topo">
+           
+            <img src="./img/Logo 1.png" class="logo">
+            
+            
+            <form class="search-bar" action="#" method="get">
+                <input type="text" class="search-input"  placeholder="Pesquisar...">
+                <button type="submit" class="search-btn">
+                    <img src="./img/lupa.png" alt="lupa">
+                </button>
+            </form>
+            
             <img src="./img/chat.png" alt="chat">
+            
         </div>
 
-        
         <nav class="menu-nav">
-            <ul>
+            <ul class="menu-list">
                 <li class="menu-nav-item">
                     <a href="#">
                         <img src="./img/home (1).png"
                         alt="Icone Home">
                         Início
                     </a>
-                </li>
+                
 
                 <li class="menu-nav-item">
                     <a href="#">
@@ -85,8 +84,11 @@
                 </li>
             </ul>
         </nav>
+
+
     </header>
 
+    
    
 
     <main class="container">
